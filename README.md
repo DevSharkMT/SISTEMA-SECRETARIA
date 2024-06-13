@@ -10,7 +10,7 @@
 * Sistema Crud.
 
 # BANCO DE DADOS
-> Após baixar o `XAMPP` inicie o **Apache** e o **MySQL**, depois selecione o **Admin** do MySQL para entrar no `PHPMYADM` <br>
+> Após baixar o `XAMPP` inicie o **Apache** e o **MySQL**, depois selecione o **Admin** do MySQL para entrar no `PhpMyAdmin` <br>
 * Ao entrar no PhpMYAdmin, crie um novo banco de dados com o nome do arquivo:
  ```
 sistema_secretaria
