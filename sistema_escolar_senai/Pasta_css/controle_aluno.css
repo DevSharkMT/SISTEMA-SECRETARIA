@@ -1,0 +1,186 @@
+body {
+    background: rgb(209, 209, 209);
+}
+.topo {
+    display: flex;
+    width: 55%;
+    margin-top: -1%;
+}
+.logo {
+    margin-top: -2%;
+    margin-left: -165%;
+    margin-right: 0%;
+    
+}
+.tarja {
+    margin-top: -3%;
+    margin-left: -16.90%;
+    margin-right: 0%;
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+}
+
+.back button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #04549c;
+    color: white;
+    font-size: 20px;
+    font-family:monospace;
+    padding: 2px 1px 2px 1px;
+    margin-top: -5%;
+    margin-left: 90%;
+    width: 8%;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.back button:hover {
+    background-color: white;
+    color:#04549c;
+    transition: 0.3s;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.80);
+    align-items: center;
+}
+
+.listagem_text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #04549c;
+    font-size: 50px;
+}
+
+.pesquisa {
+    border-radius: 5px;
+    color: white;    
+}
+
+.botao_pesquisar {
+    background-color: #04549c;
+    color: white;
+    font-size: 15px;
+    font-family:fantasy;
+    background-color: #04549c;
+    text-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    padding: 5px 5px 5px 20px;
+    width: 10%;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 3px;
+    border-style: ridge;
+    cursor:text;
+}
+
+.icone button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    text-align:center;
+    background-color: #04549c;
+    color: rgb(255, 255, 255);
+    width: 5%;
+    border-radius: 100%;
+    border-color: rgb(0, 0, 0);
+    border-width: 2%;
+    border-style: solid;
+    cursor: pointer;
+    width: 2%;
+    padding-left: 8px;
+    margin-top: -1.50%;
+    margin-left: 13%;
+    display: flex;
+}
+
+input::placeholder{
+    color: white;
+}
+
+.tabela_listar{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+
+table {
+    background-color: rgba(255, 255, 255);
+    text-align: center;
+    height: 100%;
+    width: 80%;
+}
+
+th {
+    background-color: #04549c;
+    font-family:monospace;
+    font-size: 20px;
+    color: white;
+    border-style: ridge;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+td{
+    text-align: center;
+    width: -10%;
+    font-size: 15;
+}
+
+tr:nth-child(even){
+    background: lightgray;
+}
+
+tr{
+    border: none;
+}
+
+.arquivos {
+    background: #04549c;
+    color: white;
+    border-style: hidden;
+    border-radius: 10px;
+    width: 90%;
+    font-size: 15px;
+    border-color: black;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.solicit {
+    margin-top: 2%;
+    margin-bottom: -4%;
+}
+
+.just {
+    margin-top: -1%;
+}
+
+.solicit button:hover {
+    background-color: white;
+    color:#04549c;
+    transition: 0.3s;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.80);
+}
+
+.just button:hover {
+    background-color: white;
+    color:#04549c;
+    transition: 0.3s;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.80);
+}
+
+.botao_upgrade button{
+    background-color: #04549c;
+    text-align: center;
+    padding: 6px;
+    cursor: pointer;
+    
+}
+.editar {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+

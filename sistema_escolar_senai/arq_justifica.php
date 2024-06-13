@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>JUSTIFICATIVA</title>
+    <link rel="shortcut icon" type="imagex/png" href="Imagens/icon.ico">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<?php
+    require_once "connect.php";
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $cpf = $_POST["cpf"];
+        $modalidade = $_POST["modalidade"];
+        $motivo = $_POST["motivo"];
+        $data = $_POST["data"];
+        $anexo = $_FILES["arquivo"];
+        $anexo2 = explode('.',$anexo['name']);
+        $observacoes = $_POST["observacoes"];
+
+        $dir_2 = ('Alunos/'.$cpf);
+        if(!is_dir($dir_2)) {
+            mkdir($dir_2, 0777, true);
+        } $dir_2 = "Alunos/$cpf/atestado_$data.pdf";
+            move_uploaded_file($anexo['tmp_name'], $dir_2);
+            mysqli_query($conn, "INSERT INTO justificativas (usuario_cpf, modalidade, motivo, data, arquivo, observacoes) VALUES ('$cpf','$modalidade', '$motivo', '$data', '$dir_2', '$observacoes')");
+            echo 'UPLOAD FEITO COM SUCESSO';
+            header("refresh:2;url=menu_aluno.php");
+    }
+    $conn->close();
+?>

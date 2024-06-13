@@ -1,0 +1,83 @@
+body {
+    background: rgb(209, 209, 209);
+    font-size: 25px;
+}
+.topo {
+    display: flex;
+    width: 55%;
+    margin-top: -1%;
+}
+.logo {
+    margin-top: -2%;
+    margin-left: -165%;
+    margin-right: 0%;
+    
+}
+.tarja {
+    margin-top: -3%;
+    margin-left: -16.90%;
+    margin-right: 0%;
+}
+
+.sair button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #04549c;
+    color: white;
+    font-size: 20px;
+    font-family:monospace;
+    padding: 2px 1px 2px 1px;
+    margin-top: -5%;
+    margin-left: 90%;
+    width: 8%;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.sair button:hover {
+    background-color: white;
+    color:#04549c;
+    transition: 0.3s;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.80);
+}
+
+h1 {
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #04549c;
+    font-size: 40px;
+}
+
+.box_user {
+    background-color: #04549c;
+    width: 370px;
+    height: 370px;
+    border-radius: 10px;
+    margin-top: -2.98%;
+    padding: 30px;
+    text-align: left;
+    
+}
+
+.enviar input{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #04549c;
+    color: #ffffff;
+    border-style: none;
+    cursor: pointer;
+    padding: 5px;
+    width: 5%;
+    border-radius: 5px;
+}
+
+.enviar input:hover{
+    background-color: white;
+    color: #04549c;
+    transition: 0.5s;
+    width: 110px;
+    height: 35px;
+    
+}

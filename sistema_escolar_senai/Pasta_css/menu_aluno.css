@@ -1,0 +1,125 @@
+
+.topo {
+    display: flex;
+    width: 55%;
+    margin-top: -1%;
+}
+.logo {
+    margin-top: -2%;
+    margin-left: -165%;
+    margin-right: 0%;
+    
+}
+.tarja {
+    margin-top: -3%;
+    margin-left: -16.90%;
+    margin-right: 0%;
+}
+
+.back button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #04549c;
+    color: white;
+    font-size: 20px;
+    font-family:monospace;
+    padding: 2px 1px 2px 1px;
+    margin-top: -5%;
+    margin-left: 90%;
+    width: 8%;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.back button:hover {
+    background-color: white;
+    color:#04549c;
+    transition: 0.3s;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.80);
+    align-items: center;
+}
+
+h1 {
+    color: #686868;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -1%;
+}
+
+h3 {
+    color:#546c94;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -1%;
+}
+
+.box-user {
+    background-color: #546c94;
+    width: 101.5%;
+    height: 175px;
+    padding-top: 1%;
+    margin-left: -1.1%;
+    margin-top: 2%;
+}
+
+.texto_1 {
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 30%;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.texto_1:hover {
+    background-color: #748cac;
+}
+
+.texto_2{
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 30%;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 1%;
+    cursor: pointer;
+}
+
+.texto_2:hover{
+    background-color: #748cac;
+}
+
+.botao_solicit input{
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    color: white;
+    background-color: #546c94;
+    margin-top: 1%;
+    font-size: 20px;
+    width: 30%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.botao_solicit input:hover{
+    background-color: #748cac;
+}
+
+.bv{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #546c94;
+}
