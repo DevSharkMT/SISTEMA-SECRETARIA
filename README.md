@@ -18,6 +18,7 @@ sistema_secretaria
 * Após criar o banco de dados, seleciona a opção `IMPORTAR` e selecione o arquivo `.sql` acima <br>
 ![exemplo](https://github.com/DevSharkMT/SISTEMA-SECRETARIA/assets/155767351/623a427d-9c78-424f-a78f-fd6f6bd9a104)
 * As tabelas serão importadas automaticamentes.
+* Selecione a pasta `xampp` dentro do explorador de arquivos e coloque o código na pasta `htdocs`
 
 # DEMANDA
 A unidade SENAI está necessitando de uma demanda para auxiliar as empresas que possuem alunos com contrato de aprendizagem a monitorar a frequência destes alunos. Tal ação hoje é feita enviando um e-mail para cada empresa individualmente, o que demanda muito tempo.
