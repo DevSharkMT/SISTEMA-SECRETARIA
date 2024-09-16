@@ -47,5 +47,4 @@ escola, são 2 funcionários com acessos distintos, porém com as mesmas funçõ
 # INFORMAÇÕES ADICIONAIS
 
 * Dicionário de Dados e Manual de Telas: [Dicionário de Dados.pdf](https://github.com/user-attachments/files/15829534/Dicionario.de.Dados.pdf)
-> Link do Repositório com código antigo: https://github.com/DevSharkMT/SISTEMA-SECRETARIA-E-EMPRESA
 *  O tempo de desenvolvimento do sistema, foi de aproximadamente 25 dias, contando 4 horas por dia. Por ter sido meu primeiro projeto com demanda mais próxima possível de uma situação real, o tempo foi mais longo, devido a novos aprendizados e correções de erros.
